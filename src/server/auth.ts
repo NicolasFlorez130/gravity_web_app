@@ -58,9 +58,13 @@ export const authOptions: NextAuthOptions = {
          },
       }),
       async signIn(data) {
+         console.log("uwu");
+
          const acc = await db.query.authorizedAccounts.findFirst({
             where: eq(authorizedAccounts.accountEmail, data.user.email ?? ""),
          });
+
+         console.log(acc);
 
          if (acc !== undefined) {
             return true;
