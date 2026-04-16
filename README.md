@@ -1,5 +1,7 @@
 # Gravity
 
+**Live demo:** https://gravity-web-app-three.vercel.app/
+
 Gravity is the web application built for Colombia's first wind tunnel indoor skydiving experience, located in Bogota. It features a public landing page, an appointment and booking system with online payments, and an internal backoffice for managing packages, schedules, clients, and notes.
 
 ## Background
