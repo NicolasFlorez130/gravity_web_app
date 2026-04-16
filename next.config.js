@@ -10,7 +10,7 @@ const config = {
    images: {
       remotePatterns: [
          {
-            hostname: "placekitten.com"
+            hostname: "placekittens.com"
          },
          {
             hostname: "placedog.net"
