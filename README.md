@@ -80,7 +80,29 @@ To explore those features locally:
 
 ## Backoffice
 
-<!-- Screenshots will be added here -->
+### General dashboard
+
+![General dashboard](screensoots/general_dashboard.png)
+
+The main view after logging in. Displays total revenue and booking count with percentage indicators, a list of recent reservations made from the landing page, upcoming flights with their scheduled dates, and a monthly performance chart that breaks down revenue by source (landing page, backoffice dashboard, and on-site). The right sidebar shows active internal notes.
+
+### Appointments list
+
+![Appointments list](screensoots/appointments_list.png)
+
+Accessed from the "Ver todas" button on the dashboard. A paginated, sortable table of all reservations showing client name, email, package type, scheduled date and time, creation date, payment method, and attendance status. Includes a date range filter and an export-to-XLSX button for downloading the full dataset.
+
+### Calendar
+
+![Calendar](screensoots/calendar.png)
+
+Monthly calendar view of all confirmed appointments. Each event is color-coded by package type and shows the package name directly on the cell. Supports month, week, and day views. Disabled days (holidays, maintenance) appear grayed out. Clicking a date opens a dialog to create a new booking for that day.
+
+### Packages manager
+
+![Packages manager](screensoots/packages_manager.png)
+
+Full CRUD interface for flight packages. Active and deactivated packages are separated into distinct columns. Each card shows the price, package name, category tags (Individual, Group, Children), availability window, and a toggle to activate or deactivate. The three-dot menu on each card provides edit and delete options. The activity sidebar on the right displays the same internal notes visible from the dashboard.
 
 ## Project structure
 
